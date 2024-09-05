@@ -15,6 +15,12 @@ a,h1,h2,h3,h4,p{
     width: auto;
     padding: 2px 0 0 20px; 
 }
+table, th, td {
+    border:1px solid #2e2d3e;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+  }
 img{
     border-radius: 10px;
     height: 400px;
