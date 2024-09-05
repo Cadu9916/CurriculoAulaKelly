@@ -1,3 +1,6 @@
+*{
+    padding:0
+}
 body{
     font-family: "Gill Sans", sans-serif;    
     background-color: #2E2E33;
@@ -63,10 +66,10 @@ main{
     text-align: center;
     margin-right: 60px;
     margin-top: 0;
-
+    
 }
 .containerTituloCorpo1{
-    border-radius: 15px;
+    border-radius: 10px;
     border-color: #38374B;
     background-repeat: no-repeat;
     background-color: #1711F5;
@@ -76,11 +79,33 @@ main{
 }
 .containerTituloCorpo2{
     
-    border-radius: 15px;
+    border-radius: 10px;
     border-color: #38374B;
     background-repeat: no-repeat;
     background-color: #1711F5;
     margin-right: 10px;
     text-align: left;
     margin-bottom: 5px;
+    display: unset;
+}
+.containerimg{
+    display:flex; 
+    flex-direction: row;
+}
+.textoCorpo{
+    text-align: left;
+    display: unset;
+    margin-bottom: 10px;
+}
+.containerTextoImg{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.containerTextoImgTitulo{
+    justify-content: center;
+}
+.containerTextoImgCorpo{
+    display: flex;
+    justify-content: center;
 }
