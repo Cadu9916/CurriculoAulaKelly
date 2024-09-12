@@ -9,6 +9,13 @@ body{
 a,h1,h2,h3,h4,p{
     color: #ffffff;
 }
+p{
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+
+}
 .cabecalho{
     border: 1px solid;
     border-radius: 25px;
@@ -94,19 +101,22 @@ main{
     background-color: #1711F5;
     margin-right: 10px;
     margin-top: 10px;
+    margin-bottom: 5px;
     text-align: center;
     margin-bottom: 5px;
 }
 .containerTituloCorpo2{
     
-    border-radius: 10px;
+    border-radius: 7px;
     border-color: #38374B;
     background-repeat: no-repeat;
     background-color: #1711F5;
     margin-right: 10px;
     text-align: left;
     margin-bottom: 5px;
+    margin-top: 5px;
     display: unset;
+    padding: 2px;
 }
 .containerimg{
     display:flex; 
